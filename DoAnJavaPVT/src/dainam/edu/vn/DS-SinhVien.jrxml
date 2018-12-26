@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DS-SinhVien" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e07daef0-a7f5-4e85-8def-b3813ed148e1">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="maSv" class="java.lang.String"/>
+	<field name="HoTen" class="java.lang.String"/>
+	<field name="NgaySinh" class="java.lang.String"/>
+	<field name="Gioitinh" class="java.lang.String"/>
+	<field name="Lop" class="java.lang.String"/>
+	<field name="QueQuan" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="19" y="0" width="100" height="30" uuid="72308ef1-fe40-4cbe-aba7-079011558fe8">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="88eee60f-d9b6-468a-932d-c70ea9603165"/>
+				</reportElement>
+				<text><![CDATA[maSv]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="146" y="0" width="100" height="30" uuid="a9418875-9548-49f8-bc21-e2a29dc1fd2f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="cd4488ec-8caa-4302-b474-f5a8ebd7e49c"/>
+				</reportElement>
+				<text><![CDATA[HoTen]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="291" y="0" width="100" height="30" uuid="05d431ee-7772-43f7-8c9e-d40ad99d7edc">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e2ad17e0-8ceb-4cc0-9d17-20c2295319ea"/>
+				</reportElement>
+				<text><![CDATA[NgaySinh]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="418" y="0" width="100" height="30" uuid="04bf9f80-383d-404c-ad53-dfb309f80441">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ddcd738a-5271-4c57-9ca5-82f19dcbaffc"/>
+				</reportElement>
+				<text><![CDATA[Gioitinh]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="560" y="0" width="100" height="30" uuid="565b7887-4209-46cc-8787-40f2f54327db">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d65492c0-c945-4b60-b38f-bf1d6f8c6901"/>
+				</reportElement>
+				<text><![CDATA[Lop]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="694" y="0" width="100" height="30" uuid="20829943-7b91-4393-a668-29102fefa8ca">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0b393f9c-88a7-4e68-9df5-c491bb383fa0"/>
+				</reportElement>
+				<text><![CDATA[QueQuan]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="126" splitType="Stretch">
+			<textField>
+				<reportElement x="19" y="88" width="100" height="30" uuid="a0cc07a7-33be-4382-9c76-34f622d8509c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="88eee60f-d9b6-468a-932d-c70ea9603165"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{maSv}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="146" y="89" width="100" height="30" uuid="02004d7f-0278-401c-b720-4f2c35f871f2">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="cd4488ec-8caa-4302-b474-f5a8ebd7e49c"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{HoTen}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="291" y="95" width="100" height="30" uuid="fa46eafd-0cd9-4025-8832-931703f986bb">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e2ad17e0-8ceb-4cc0-9d17-20c2295319ea"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{NgaySinh}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="418" y="92" width="100" height="30" uuid="a194767c-9651-4fff-97f0-04fcfac4ad93">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ddcd738a-5271-4c57-9ca5-82f19dcbaffc"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Gioitinh}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="560" y="92" width="100" height="30" uuid="5060a183-7b14-47d1-957e-1f5258dd4f8c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d65492c0-c945-4b60-b38f-bf1d6f8c6901"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Lop}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="694" y="96" width="100" height="30" uuid="689bce3a-76fa-4e15-a2f9-bed3baa986b4">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0b393f9c-88a7-4e68-9df5-c491bb383fa0"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{QueQuan}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
